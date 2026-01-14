@@ -12,6 +12,7 @@
 #SBATCH --mail-user=email                                 # your NU email address
 
 module purge
+module load python-anaconda3/2019.10
 eval "$(conda shell.bash hook)"
 conda activate /projects/XXXXXX/env
 
